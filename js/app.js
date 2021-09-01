@@ -1,11 +1,9 @@
 // declaring common variable
-
 const searchBtn = document.getElementById("book-search-btn");
 const inputField = document.getElementById("book-input-field");
 const parentOfItems = document.getElementById("books");
 
 // fetching data by clicking searchBtn
-
 searchBtn.addEventListener("click", () => {
 	const bookName = inputField.value;
 	customizeVisualization();
@@ -40,7 +38,6 @@ const settingSpinner = () => {
         <div class="d-flex loading-container">
                 <span class="spinner-border spinner" role="status"></span>
                 <b class=""> &nbsp; Please wait...</b>
-                
         </div>
     </div>
     `;
